@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb5cc506-bf8c-4ce9-a61a-cdbabde3d4fb" name="Default Changelist" comment="" />
+    <list default="true" id="cb5cc506-bf8c-4ce9-a61a-cdbabde3d4fb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell echo命令/note.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell echo命令/t.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell echo命令/t1.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell printf 命令/note.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell printf 命令/t.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell printf 命令/t1.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell test 命令/.t1.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell test 命令/note.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell test 命令/t.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell test 命令/t1.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell 函数/1t.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell 函数/note.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell 函数/t.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell 函数/tt.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell 文件包含/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell 文件包含/note.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell 文件包含/t.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell 文件包含/t1.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell 文件包含/test1.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell 文件包含/test2.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell 流程控制/note.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell 流程控制/t.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell 流程控制/t1.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell 输入输出重定向/note.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell 输入输出重定向/t.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/Shell 输入输出重定向/users" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/shell传递参数/note.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/shell传递参数/t1.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/shell传递参数/test.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/shell变量/.test.sh.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/shell变量/notes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/shell变量/test.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/shell数组/note.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/shell数组/t1.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/shell运算符/note.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/shell运算符/t.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/shell运算符/t1.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/shell运算符/t2.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/shell运算符/t3.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/shell运算符/t4.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/shell运算符/t5.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/概论/.notes.txt.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/概论/.test.hs.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/概论/notes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux菜鸟教程/概论/test.sh" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,35 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/note.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="378" selection-start-line="10" selection-start-column="378" selection-end-line="10" selection-end-column="378" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linux网络疑问整理/linux命令的爬虫整理/linux_all.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="34" />
-              <folding>
-                <element signature="e#26#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/linux网络疑问整理/linux命令的爬虫整理/linux_all_details.py">
+        <entry file="file://$PROJECT_DIR$/linux菜鸟教程/Linux 远程登录/ssh.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
-              <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
-              <folding>
-                <element signature="e#172#183#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -61,21 +83,21 @@
         <option value="$PROJECT_DIR$/note.py" />
         <option value="$PROJECT_DIR$/linux网络疑问整理/linux命令的爬虫整理/linux_all.py" />
         <option value="$PROJECT_DIR$/linux网络疑问整理/linux命令的爬虫整理/linux_all_details.py" />
+        <option value="$PROJECT_DIR$/linux菜鸟教程/Linux 远程登录/ssh.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="915" />
-    <option name="y" value="57" />
-    <option name="width" value="593" />
-    <option name="height" value="588" />
+    <option name="x" value="190" />
+    <option name="y" value="128" />
+    <option name="width" value="1106" />
+    <option name="height" value="558" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,13 +113,19 @@
             <path>
               <item name="Recoding_Linux" type="b2602c69:ProjectViewProjectNode" />
               <item name="Recoding_Linux" type="462c0819:PsiDirectoryNode" />
-              <item name="linux网络疑问整理" type="462c0819:PsiDirectoryNode" />
-              <item name="linux命令的爬虫整理" type="462c0819:PsiDirectoryNode" />
+              <item name="linux菜鸟教程" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recoding_Linux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recoding_Linux" type="462c0819:PsiDirectoryNode" />
+              <item name="linux菜鸟教程" type="462c0819:PsiDirectoryNode" />
+              <item name="Linux 远程登录" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -116,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.linux_all_details">
+  <component name="RunManager" selected="Python.ssh">
     <configuration name="linux_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Recoding_Linux" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,8 +208,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ssh" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Recoding_Linux" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linux菜鸟教程/Linux 远程登录" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linux菜鸟教程/Linux 远程登录/ssh.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ssh" />
         <item itemvalue="Python.linux_all_details" />
         <item itemvalue="Python.linux_all" />
         <item itemvalue="Python.note" />
@@ -205,7 +255,7 @@
     <frame x="0" y="0" width="1366" height="718" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24944155" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24907063" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -244,16 +294,10 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/note.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="378" selection-start-line="10" selection-start-column="378" selection-end-line="10" selection-end-column="378" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/note.py" />
     <entry file="file://$PROJECT_DIR$/linux网络疑问整理/linux命令的爬虫整理/linux_all.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
+        <state relative-caret-position="645">
           <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="34" />
           <folding>
             <element signature="e#26#37#0" expanded="true" />
@@ -263,11 +307,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linux网络疑问整理/linux命令的爬虫整理/linux_all_details.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+        <state relative-caret-position="510">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
           <folding>
             <element signature="e#172#183#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux菜鸟教程/Linux 远程登录/ssh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,8 @@
+Linux 安装
+本章节我们将为大家介绍Linux的安装。
+
+本章节以 centos6.4 为例。
+
+centos 下载地址：
+
+可以去官网下载最新版本：https://www.centos.org/download/
