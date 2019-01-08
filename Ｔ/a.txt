@@ -1,3 +1,16 @@
 
 
-'this is a test~'
+
+
+
+movie  hero
+
+die hard john moclane
+
+star ware  duke skywalker
+
+john wick john wick
+
+aliens ellen ripley
+
+the thing macready
