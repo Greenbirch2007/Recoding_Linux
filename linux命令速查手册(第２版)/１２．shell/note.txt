@@ -7,3 +7,103 @@
 history
 
 12.2 再次运行最近输入的命令
+
+!! (快捷键)
+
+
+１２．３　　使用数字在此运行之前的命令
+!##
+
+12.4  使用字符串下次运行之前的命令
+
+
+！string
+
+12.5  搜索之前输入的命令并运行
+
+^-r (ctrl-r)
+
+^-s　(ctrl-s)
+
+^-g (ctrl-g)
+
+
+12.6  显示所有命令的别名
+
+
+alias
+
+１２．７　　查看特定命令的别名
+
+alias [alias name]
+
+12.8  创建新的临时别名
+
+alias [alias name] ="[command]"
+
+ls -d */
+alias lsd="ls -d */"
+lsd
+
+12.9 创建新的永久别名
+
+alias [alias name] = "[command]"
+
+如果想让别名在不同的shell中都能使用,就需要把它们添加到shell用来存储别名的文件中，大多数情况下，这个文件.bashrc或.bash_aliases
+
+
+添加别名之后要重新启动以下文件，使用如下命令
+
+
+source ~/.bash_aliases
+
+12.10 删除别名
+
+unalias
+
+１２．１１　创建新的临时函数
+
+function [function name] {}
+
+[function name ] () {}
+
+mkcd () { mkdir -p "$1"; cd "$1";}
+mkcd lovecraft
+pwd
+
+
+12.12 创建新的永久函数
+
+function [function name] {}
+
+
+
+在自己的主目录中创建名为.bash_functions的文件，并在.bashrc中引用该文件，
+
+
+12.13  显示所有函数
+
+
+listfunc () {
+for func in $(compgen -A function | grep -v _);
+do 
+   declare -f $func;
+   echo -e "\r";
+done
+}
+
+12.14 删除函数
+
+unset -f [function name]
+
+mkcd () { mkdir -p "$1"; cd "$1"; }
+mkcd lovecraft
+pwd
+unset -f mkcd
+mkcd cthulhu
+}
+
+
+12.15  何时使用别名以及何时使用函数
+
+

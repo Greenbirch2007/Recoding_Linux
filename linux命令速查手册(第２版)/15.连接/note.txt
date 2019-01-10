@@ -1,0 +1,64 @@
+第１５　章　连接
+
+
+
+１５．１　　查看网络接口的状态
+
+ifconfig
+
+ip addr show 
+
+
+15.2  验证计算机是否正在运行和能否接收请求
+
+ping
+
+ping -c
+
+
+15.3  跟踪数据包在两台主机之间经过的路由
+
+traceroute
+
+15.4 查询DNS记录
+
+host
+dig
+
+
+DNS(Domain Name Sytem,域名系统)的建立是的人们可以更容易地访问互联网上的各种资源
+
+要快速获得和某个域名关联的IP地址，可以使用host命令
+
+
+１５．５　　配置网络接口
+
+ifcnfig
+ip addr add
+ip link set
+
+15.6  查看无线网络接口额状态
+
+iwconfig
+
+15.7  配置无线网络接口
+
+１５．８　使用DHCP获得新的网络地址
+
+dhclient
+
+15.9 激活网络连接
+
+ifup
+
+ip link set
+
+15.11 显示ip路由
+
+route
+ip route
+
+15.12 修改ip路由表
+
+route
+ip route
