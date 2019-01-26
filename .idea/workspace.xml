@@ -20,10 +20,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/linux命令行与shell脚本编程大全(第3版)/note.py">
+        <entry file="file://$PROJECT_DIR$/IBM developerWorks(linux)/IBM_DW_linux.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="411" selection-start-line="10" selection-start-column="411" selection-end-line="10" selection-end-column="411" />
+            <state relative-caret-position="346">
+              <caret line="73" selection-start-line="73" selection-start-column="2" selection-end-line="77" selection-end-column="32" />
+              <folding>
+                <element signature="e#36#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,14 +51,15 @@
         <option value="$PROJECT_DIR$/linux网络疑问整理/linux命令的爬虫整理/linux_all_details.py" />
         <option value="$PROJECT_DIR$/linux菜鸟教程/Linux 远程登录/ssh.py" />
         <option value="$PROJECT_DIR$/linux命令行与shell脚本编程大全(第3版)/note.py" />
+        <option value="$PROJECT_DIR$/IBM developerWorks(linux)/IBM_DW_linux.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="187" />
-    <option name="y" value="343" />
-    <option name="width" value="1046" />
-    <option name="height" value="618" />
+    <option name="x" value="127" />
+    <option name="y" value="228" />
+    <option name="width" value="1097" />
+    <option name="height" value="580" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -72,23 +76,17 @@
             <path>
               <item name="Recoding_Linux" type="b2602c69:ProjectViewProjectNode" />
               <item name="Recoding_Linux" type="462c0819:PsiDirectoryNode" />
+              <item name="IBM developerWorks(linux)" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recoding_Linux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recoding_Linux" type="462c0819:PsiDirectoryNode" />
               <item name="linux命令行与shell脚本编程大全(第3版)" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Recoding_Linux" type="b2602c69:ProjectViewProjectNode" />
               <item name="Recoding_Linux" type="462c0819:PsiDirectoryNode" />
               <item name="linux网络疑问整理" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Recoding_Linux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Recoding_Linux" type="462c0819:PsiDirectoryNode" />
-              <item name="linux菜鸟教程" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Recoding_Linux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Recoding_Linux" type="462c0819:PsiDirectoryNode" />
-              <item name="linux菜鸟教程" type="462c0819:PsiDirectoryNode" />
-              <item name="Linux 远程登录" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -113,7 +111,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.note (1)">
+  <component name="RunManager" selected="Python.IBM_DW_linux">
+    <configuration name="IBM_DW_linux" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Recoding_Linux" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IBM developerWorks(linux)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IBM developerWorks(linux)/IBM_DW_linux.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="linux_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Recoding_Linux" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,27 +196,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="note" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Recoding_Linux" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/note.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="ssh" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Recoding_Linux" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.IBM_DW_linux" />
         <item itemvalue="Python.note (1)" />
         <item itemvalue="Python.ssh" />
         <item itemvalue="Python.linux_all_details" />
         <item itemvalue="Python.linux_all" />
-        <item itemvalue="Python.note" />
       </list>
     </recent_temporary>
   </component>
@@ -244,19 +242,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="718" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24907063" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32879046" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32879046" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32933104" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32879046" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -305,6 +304,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/linux命令行与shell脚本编程大全(第3版)/note.py" />
     <entry file="file://$PROJECT_DIR$/linux菜鸟教程/Linux 远程登录/ssh.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -312,10 +312,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linux命令行与shell脚本编程大全(第3版)/note.py">
+    <entry file="file://$PROJECT_DIR$/IBM developerWorks(linux)/IBM_DW_linux.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="411" selection-start-line="10" selection-start-column="411" selection-end-line="10" selection-end-column="411" />
+        <state relative-caret-position="346">
+          <caret line="73" selection-start-line="73" selection-start-column="2" selection-end-line="77" selection-end-column="32" />
+          <folding>
+            <element signature="e#36#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
