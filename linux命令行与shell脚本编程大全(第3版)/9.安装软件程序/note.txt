@@ -1,0 +1,171 @@
+
+第９章　安装软件程序
+
+
+本章内容
+
+安装软件
+使用Debian包
+使用Red Hat包
+
+
+liux使用各种包管理系统(package management system,PMS)
+
+9.1 包管理基础
+
+各种主流linux发行版都采用了某种形式的包管理系统来控制软件和库的安装
+
+PMS利用一个数据库来记录各种相关内容：
+
+１．linux系统上已经安装了什么软件包
+２．每个包安装了什么文件
+３．每个已安装软件包的版本
+
+软件包存储在服务器上，可以利用本地linux系统上的PMS工具通过互联网访问。这些服务器仓库(reposity)。可以用PMS工具来搜索新的软件包，或是更新系统上已安装软件包
+
+linux中广泛使用的两种主要的PMS基础工具是dpkg和rpm
+
+
+９．２　　基于Debian的系统
+
+dpkg命令是基于Debian系PMS工具的核心。包含在这个PMS中的其他工具有：
+１．apt-get
+2. apt-cache
+3. aptitude
+
+
+aptitude工具本质上是apt工具和dpkg的前端。dpkg是软件包管理系统工具，而aptitude则是完整的软件包管理系统
+
+９．２．１　　用aptitude管理软件包
+
+在shell中键入aptitude 就可以进入全屏模式
+
+aptitude show package_name
+
+比如　aptitude show mysql-client
+
+无法通过aptitude看到的一个细节是所有跟某个特定软件包相关的所有文件的列表。
+要得到这个列表，就必须使用dpkg命令
+
+dpkg -L package_name
+
+比如　使用dpkg列出vim-common软件包所安装的全部问价
+
+dpkg　-L vim-commo
+
+同样可以进行反向操作，查找某个特定文件属于哪个软件包
+
+dpkg --search absolute_file_name
+
+注意，在使用的时候必须用绝对文件路径
+
+９．２．２　　用aptitude 安装软件包
+首先，要确定准备安装的软件包名称。怎么才能找到特定的软件包？
+aptitude search package_name
+
+
+search选项的优势在于你无需在package_name周围加通配符符。通配符会隐式添加
+
+注意，每个包名字之前都有一个p或i,如果看到一个i，说明这个包已经安装到了你的系统上了。
+如果看到一个p或v，说明这个包可用，但是还没安装
+
+
+在系统上用aptitude从软件仓库中安装软件包非常简单
+
+aptitude  install package_name
+
+sudo aptitude install win 
+
+注意,sudo命令允许你以root用户身份运行一个命令。可以用sudo 进行管理任务，比如安装软件
+
+
+要检查安装过程是否正常，只要再次使用search选项就可以
+
+９．２．３ 用aptitude更新软件
+
+
+aptitude　safe-upgrade
+
+因为safe-upgrade选项会将所有已经安装的包更新到软件仓库中的最新版本，更有利于系统稳定
+
+
+９．２．４　　用aptitude卸载软件
+
+
+要想只删除软件包而不删除数据和配置文件，可以上aptitude的remove选项。
+要想删除软件包和数据的配置文件，可用purge选型
+
+
+sudo aptitude purge wine
+
+
+要看软件包是否已经删除，可以再用aptitude的search选项。如果在软件包名称的前面看到一个c，意味着软件已经删除，但配置文件尚未从系统中删除；如果前面是个Ｐ的话，说明配置文件也已经删除
+
+９．２．５　　aptitude仓库
+
+
+aptitude默认的软件仓库位置是在安装linux发行版时设置的，具体位置存储在文件的/etc/atp/sources.list中
+
+通常通过库来升级或安装软件包是最安全的，即使在其他地方有更新的版本，也应该等到该版本出现在你的linux发行版仓库中的时候再安装
+
+cat /etc/apt/sources/list
+
+deb (or deb-src)  address distribution_name package_type_list
+
+deb或deb-src的值表明了软件包的类型。deb值说明这是一个已经编译程序源，而deb-src只则说明这是一个源代码的源
+
+address条目是软件仓库的web地址
+
+aptitude前端界面提供了智能命令行选项来配合基于Debian的dpkg工具。现在是时候了解基于Red Hat的发行版的rpm工具和它的各种前端界面了
+
+９．３　基于　Ｒed Hat的系统
+９．３．１　列出已经安装包
+
+yum list installed
+
+9.4 从源码安装
+
+通过tar命令行命令进行常见和解包。
+
+sysstat提供了各种系统监测工具，
+
+首先需要将sysstat的tarball下载到你的linux系统上。通常能在各种linux网站上找到sysstat包
+
+单击Download(下载)链接，就会转入文件下载页面。
+将文件下载到你的linux系统上，然后解包。要解包一个软件的tarball,用标准的tar命令
+
+tar -zxvf sysstar.tar.gz
+
+现在，tarball已经完全了解包，所有文件都已经顺利放到一个sysstat的目录中，你可以跳到这个目录继续
+
+首先，用cd命令进入这个新目录中，然后列出这个目录的内容
+
+cd sysstat
+
+ls
+
+
+在sysstat这个目录的列表中，应该能看到README或AAAREADME文件。读这个问价非常重要
+该文件包含了软件安装所需要的操作
+
+按照READMEN文件中的建议，下一步是为系统配置sysstat。它会检查你的linux系统，确保它拥有合适的编译器能够编译源代码，另外还要具备正确的库依赖关系
+
+
+# ./configure
+
+下一步就是用make命令来构建各种二进制文件。make命令会编译源码，然后链接器会为这个包创建最终的可执行文件。和configure命令一样，make命令会在编译和链接所有的源码文件的过程中产生大量的输出
+
+# make
+
+make步骤结束时，可运行的sysstat软件程序就会出现在目录下。但是从那个目录下运行程序有些不便。
+你就会将它安装到linux系统中常用的位置上。
+要是这样的话，就必须以root用户身份登录(或用sudo命令)然后用make命令的install选项
+
+
+make install
+
+现在,sysstat包已经安装在系统上了
+
+
+
+
